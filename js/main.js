@@ -43,7 +43,7 @@ console.info(ev.target)
     })
 
     let DeafultBtn = document.querySelector("removeAttribute")
-    defaultBtn.addEventListener("click", function(){
+    reset.addEventListener("click", function(){
         bodyElement.setAttribute("class", "deault")
 })
 
