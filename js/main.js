@@ -14,5 +14,20 @@
         console.info("i was clicked")
     })
 
+
+
+    function myFunction(ev){
+console.info(ev.target)
+    }
+
+    //background colour picker
+
+    let bodyElement = document.querySelector("body")
+    let redBtn = document.querySelector(".red")
+    redBtn.addEventListener("click", function(){
+        bodyElement.setAttribute("class", "redBack")
+    })
+
+
      //end
 })()   
