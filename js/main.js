@@ -42,9 +42,9 @@ console.info(ev.target)
         bodyElement.setAttribute("class", "greenBack")
     })
 
-    let DeafultBtn = document.querySelector("removeAttribute")
-    reset.addEventListener("click", function(){
-        bodyElement.setAttribute("class", "deault")
+    let deafultBtn = document.querySelector(".reset")
+    deafultBtn.addEventListener("click", function(){
+        bodyElement.removeAttribute("class")
 })
 
 
