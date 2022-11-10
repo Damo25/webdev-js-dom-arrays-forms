@@ -30,13 +30,15 @@ console.info(ev.target)
 
    
     let blueBtn = document.querySelector(".blue")
-    redBtn.addEventListener("click", function(){
+    blueBtn.addEventListener("click", function(){
         bodyElement.setAttribute("class", "blueBack")
+
     })
+    
 
    
     let greenBtn = document.querySelector(".green")
-    redBtn.addEventListener("click", function(){
+    greenBtn.addEventListener("click", function(){
         bodyElement.setAttribute("class", "greenBack")
     })
 
